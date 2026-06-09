@@ -34,12 +34,12 @@
 
   /* ─── Typewriter in hero role ─── */
   const roles = [
-    'GenAI Engineer',
-    'Full Stack Developer',
-    'Open Source Admin',
-    'Hackathon Winner',
-    'NPM Author'
-  ];
+  'Data Engineer',
+  'Big Data Analyst',
+  'Fintech Solutions Builder',
+  'Database Developer'
+];
+
   const roleEl = document.querySelector('.hero-role span');
   if (roleEl) {
     let ri = 0, ci = 0, deleting = false;
