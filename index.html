@@ -107,14 +107,14 @@
           <div class="mini-fact-icon">🎓</div>
           <div>
             <div class="mini-fact-label">Education</div>
-            <div class="mini-fact-value">PGD in Big Data Analytics — CDAC ACTS Bangalore</div>
+            <div class="mini-fact-value">PGD in Big Data Analytics - CDAC ACTS Bangalore</div>
           </div>
         </div>
         <div class="mini-fact">
           <div class="mini-fact-icon">🏢</div>
           <div>
             <div class="mini-fact-label">Latest Internship</div>
-            <div class="mini-fact-value">Global Web Packages — Data Analyst Intern (2025)</div>
+            <div class="mini-fact-value">Global Web Packages - Data Analyst Intern (2025)</div>
           </div>
         </div>
         <div class="mini-fact">
@@ -264,25 +264,133 @@
 
       <div class="timeline-item">
         <div class="timeline-meta">
-          <span class="timeline-company">Independent Projects</span>
-          <span class="timeline-badge badge-oss">Builder</span>
+          <span class="timeline-company">Local RAG System</span>
+          <span class="timeline-badge badge-oss">Project</span>
         </div>
-        <div class="timeline-role">Data Engineer & Analyst</div>
-        <div class="timeline-period">2024 – Present · Remote</div>
+        <div class="timeline-role">AI Engineer — LLM Pipeline</div>
+        <div class="timeline-period">2025 · Independent</div>
         <p class="timeline-desc">
-          Self-directed builds across the full data stack — from 
-          <strong>Crypto ETL pipelines</strong> (Airflow, Docker, PostgreSQL, CoinGecko API) 
-          to <strong>GA4 e-commerce dashboards</strong> (BigQuery, Looker Studio) and a 
-          <strong>PySpark analytics engine</strong> on 2M+ row Open Food Facts dataset. 
-          Every project is production-scoped, version-controlled, and publicly documented on GitHub.
+          Built a fully <strong>offline Retrieval-Augmented Generation system</strong> running 
+          locally on CPU using Llama3 via Ollama. Implemented document ingestion, 
+          vector storage with <strong>ChromaDB</strong>, and a conversational interface 
+          via <strong>Streamlit</strong> — no cloud API calls, no data leaving the machine.
         </p>
         <div class="timeline-tech">
-          <span class="t-tag">Airflow</span>
-          <span class="t-tag">Docker</span>
-          <span class="t-tag">BigQuery</span>
+          <span class="t-tag">LangChain</span>
+          <span class="t-tag">Ollama</span>
+          <span class="t-tag">Llama3</span>
+          <span class="t-tag">ChromaDB</span>
+          <span class="t-tag">HuggingFace</span>
+          <span class="t-tag">Streamlit</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-company">Medallion Architecture Pipeline</span>
+          <span class="timeline-badge badge-oss">Project</span>
+        </div>
+        <div class="timeline-role">Data Engineer — Lakehouse Architecture</div>
+        <div class="timeline-period">2025 · Independent</div>
+        <p class="timeline-desc">
+          Designed and implemented a <strong>Bronze → Silver → Gold lakehouse pipeline</strong> 
+          using Databricks and Delta Lake. Handled schema evolution, data quality enforcement, 
+          and transformation logic via <strong>dbt</strong> — structured for production-grade 
+          analytical workloads.
+        </p>
+        <div class="timeline-tech">
+          <span class="t-tag">Databricks</span>
+          <span class="t-tag">Delta Lake</span>
+          <span class="t-tag">dbt</span>
           <span class="t-tag">PySpark</span>
+          <span class="t-tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-company">Crypto ETL Pipeline</span>
+          <span class="timeline-badge badge-oss">Project</span>
+        </div>
+        <div class="timeline-role">Data Engineer — Automated ETL</div>
+        <div class="timeline-period">2024 · Independent</div>
+        <p class="timeline-desc">
+          Built an <strong>automated ETL pipeline</strong> ingesting live cryptocurrency data 
+          from the CoinGecko API, orchestrated via <strong>Apache Airflow</strong> running in 
+          Docker, and stored in <strong>PostgreSQL</strong>. Designed for scheduled runs with 
+          error handling and pipeline monitoring.
+        </p>
+        <div class="timeline-tech">
+          <span class="t-tag">Apache Airflow</span>
+          <span class="t-tag">Docker</span>
           <span class="t-tag">PostgreSQL</span>
+          <span class="t-tag">CoinGecko API</span>
+          <span class="t-tag">Python</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-company">GA4 E-Commerce Dashboard</span>
+          <span class="timeline-badge badge-oss">Project</span>
+        </div>
+        <div class="timeline-role">Data Analyst — Cloud Analytics</div>
+        <div class="timeline-period">2024 · Independent</div>
+        <p class="timeline-desc">
+          Ingested <strong>Google Analytics 4 e-commerce data into BigQuery</strong> and built 
+          a publicly accessible <strong>Looker Studio dashboard</strong> tracking funnel 
+          performance, revenue trends, and user behaviour — deployed on GCP free tier.
+        </p>
+        <div class="timeline-tech">
+          <span class="t-tag">BigQuery</span>
           <span class="t-tag">Looker Studio</span>
+          <span class="t-tag">GCP</span>
+          <span class="t-tag">SQL</span>
+          <span class="t-tag">GA4</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-company">NutriStream — PySpark Analytics</span>
+          <span class="timeline-badge badge-oss">Project</span>
+        </div>
+        <div class="timeline-role">Data Engineer — Large Scale Processing</div>
+        <div class="timeline-period">2024 · Independent</div>
+        <p class="timeline-desc">
+          Processed the <strong>Open Food Facts dataset (2M+ rows)</strong> using PySpark — 
+          implementing batch processing, Structured Streaming, and <strong>GraphX PageRank</strong> 
+          for ingredient relationship analysis. Ran ML models (Random Forest, Linear Regression) 
+          via <strong>MLlib</strong> on distributed data.
+        </p>
+        <div class="timeline-tech">
+          <span class="t-tag">PySpark</span>
+          <span class="t-tag">MLlib</span>
+          <span class="t-tag">GraphX</span>
+          <span class="t-tag">Structured Streaming</span>
+          <span class="t-tag">Hadoop</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-company">Bank Marketing Campaign Analysis</span>
+          <span class="timeline-badge badge-oss">Project</span>
+        </div>
+        <div class="timeline-role">Data Analyst — SQL & Python</div>
+        <div class="timeline-period">2024 · Independent</div>
+        <p class="timeline-desc">
+          Analysed a <strong>45K row UCI Bank Marketing dataset</strong> using PostgreSQL and Python 
+          to identify campaign response drivers. Key finding: cellular contact yielded 
+          <strong>~1.6x higher response rate</strong> than telephone — insights presented 
+          through a structured Jupyter notebook.
+        </p>
+        <div class="timeline-tech">
+          <span class="t-tag">PostgreSQL</span>
+          <span class="t-tag">Python</span>
+          <span class="t-tag">Pandas</span>
+          <span class="t-tag">Jupyter</span>
+          <span class="t-tag">SQL</span>
         </div>
       </div>
 
@@ -296,81 +404,90 @@
     <div class="section-tag">// 04. projects</div>
     <div class="divider"></div>
     <h2 class="section-title">Things I've built.</h2>
-    <p class="section-sub">Products with a business-first mindset — not just GitHub repos.</p>
+    <p class="section-sub">Production-scoped data systems — not just notebooks.</p>
     <div class="projects-grid">
 
       <div class="project-card featured reveal">
         <div class="project-num">01 — FEATURED</div>
-        <div class="project-title">The Jungle Protocol <span>Portfolio</span></div>
+        <div class="project-title">Local RAG System <span>AI Pipeline</span></div>
         <p class="project-desc">
-          A Jumanji-themed gamified portfolio that turns the standard resume into an interactive quest. 
-          Features a fully functional in-browser terminal with easter eggs, a Gemini-powered NPC chatbot 
-          with its own persona, a recruiter mode that adapts based on uploaded job descriptions, 
-          a load-balanced production API pipeline, and a playable career narrative in Level 2.
+          A fully offline Retrieval-Augmented Generation system running Llama3 locally via Ollama — 
+          no cloud API, no data leaving the machine. Handles document ingestion, vector search via 
+          ChromaDB, and conversational querying through a Streamlit interface. Built to demonstrate 
+          that production-grade LLM pipelines don't require expensive cloud infrastructure.
         </p>
-        <div class="project-impact">🏆 Google AI Challenge submission · Production load balancer with 3 Gemini instances · Recruiter-adaptive game mode</div>
+        <div class="project-impact">🤖 100% local LLM inference · Zero API cost · CPU-only deployment</div>
         <div class="project-tech">
-          <span class="t-tag">Next.js</span><span class="t-tag">Gemini API</span><span class="t-tag">GSAP</span>
-          <span class="t-tag">Three.js</span><span class="t-tag">GCP</span><span class="t-tag">Load Balancer</span>
-          <span class="t-tag">React Markdown</span>
+          <span class="t-tag">LangChain</span><span class="t-tag">Ollama</span><span class="t-tag">Llama3</span>
+          <span class="t-tag">ChromaDB</span><span class="t-tag">HuggingFace</span><span class="t-tag">Streamlit</span>
         </div>
-        <a href="https://hrushikesh-dalal-portfolio-571902073238.europe-west1.run.app" class="project-link" target="_blank">Live Demo</a>
+        <a href="https://github.com/HrushikeshDalal" class="project-link" target="_blank">GitHub</a>
       </div>
 
       <div class="project-card reveal">
         <div class="project-num">02</div>
-        <div class="project-title">VerdictAI</div>
+        <div class="project-title">Medallion Architecture <span>Pipeline</span></div>
         <p class="project-desc">
-          Exploring the intersection of AI and law. A system that applies language models to legal reasoning, 
-          verdict prediction, and case summarization — making legal knowledge more accessible.
+          End-to-end lakehouse pipeline implementing Bronze → Silver → Gold layers using 
+          Databricks and Delta Lake. Handles schema evolution, data quality enforcement, 
+          and transformation logic via dbt — structured for real analytical workloads, 
+          not toy datasets.
         </p>
-        <div class="project-impact">🔬 AI × Law — making complex legal documents queryable</div>
+        <div class="project-impact">🏗️ Production lakehouse pattern · dbt transformations · Delta Lake ACID compliance</div>
         <div class="project-tech">
-          <span class="t-tag">LLMs</span><span class="t-tag">RAG</span><span class="t-tag">Python</span><span class="t-tag">Next.js</span>
+          <span class="t-tag">Databricks</span><span class="t-tag">Delta Lake</span>
+          <span class="t-tag">dbt</span><span class="t-tag">PySpark</span><span class="t-tag">SQL</span>
         </div>
         <a href="https://github.com/HrushikeshDalal" class="project-link" target="_blank">GitHub</a>
       </div>
 
       <div class="project-card reveal reveal-delay-1">
         <div class="project-num">03</div>
-        <div class="project-title">Glean Supply Chain <span>Agent</span></div>
+        <div class="project-title">Crypto ETL <span>Pipeline</span></div>
         <p class="project-desc">
-          AI Agent built during the General Mills internal hackathon. Automates analysis of supply chain metrics 
-          from unstructured data sources using Glean's enterprise search API, delivering structured outputs 
-          to decision-makers.
+          Automated ETL pipeline ingesting live cryptocurrency data from the CoinGecko API, 
+          orchestrated via Apache Airflow running in Docker, stored in PostgreSQL. 
+          Built with scheduled DAGs, error handling, and pipeline monitoring — 
+          the full production stack for a real-time data feed.
         </p>
-        <div class="project-impact">🏢 Built at General Mills with real supply chain data</div>
+        <div class="project-impact">⚙️ Airflow DAG orchestration · Dockerised · Scheduled live data ingestion</div>
         <div class="project-tech">
-          <span class="t-tag">AI Agents</span><span class="t-tag">Glean API</span><span class="t-tag">GenAI</span><span class="t-tag">Python</span>
+          <span class="t-tag">Apache Airflow</span><span class="t-tag">Docker</span>
+          <span class="t-tag">PostgreSQL</span><span class="t-tag">CoinGecko API</span><span class="t-tag">Python</span>
         </div>
-        <a href="https://in.linkedin.com/in/hrushikesh-dalal" class="project-link" target="_blank">LinkedIn Post</a>
+        <a href="https://github.com/HrushikeshDalal" class="project-link" target="_blank">GitHub</a>
       </div>
 
       <div class="project-card reveal reveal-delay-2">
         <div class="project-num">04</div>
-        <div class="project-title">envalyze <span>&amp; env-fault</span></div>
+        <div class="project-title">GA4 E-Commerce <span>Dashboard</span></div>
         <p class="project-desc">
-          Two published npm CLI tools that solve real developer pain: environment variable validation at startup 
-          and fault detection before hitting production. Gained organic traction with posts going viral in dev communities.
+          Ingested Google Analytics 4 e-commerce event data into BigQuery and built 
+          a publicly accessible Looker Studio dashboard tracking funnel performance, 
+          revenue trends, and user behaviour. Fully deployed on GCP free tier — 
+          live and accessible to anyone.
         </p>
-        <div class="project-impact">📦 Published to NPM · Viral in developer communities</div>
+        <div class="project-impact">📊 Live public dashboard · BigQuery + GCP · Real GA4 e-commerce data</div>
         <div class="project-tech">
-          <span class="t-tag">Node.js</span><span class="t-tag">CLI</span><span class="t-tag">npm</span><span class="t-tag">DevTools</span>
+          <span class="t-tag">BigQuery</span><span class="t-tag">Looker Studio</span>
+          <span class="t-tag">GCP</span><span class="t-tag">SQL</span><span class="t-tag">GA4</span>
         </div>
-        <a href="https://www.npmjs.com" class="project-link" target="_blank">NPM Registry</a>
+        <a href="https://github.com/HrushikeshDalal" class="project-link" target="_blank">GitHub</a>
       </div>
 
       <div class="project-card reveal">
         <div class="project-num">05</div>
-        <div class="project-title">vanilla-verse <span>&amp; react-verse</span></div>
+        <div class="project-title">NutriStream <span>PySpark Analytics</span></div>
         <p class="project-desc">
-          Two open-source community projects led as project admin during Hacktoberfest. 
-          vanilla-verse ships 40+ tools and games in vanilla JS. react-verse is a comprehensive 
-          multi-API playground. Together they pulled 72 contributors and 150+ PRs merged.
+          Large-scale data processing on the Open Food Facts dataset (2M+ rows) using PySpark — 
+          batch processing, Structured Streaming, and GraphX PageRank for ingredient 
+          relationship analysis. ML models via MLlib including Random Forest and Linear Regression 
+          on distributed data.
         </p>
-        <div class="project-impact">👥 72 contributors · 150+ PRs · 100+ forks</div>
+        <div class="project-impact">🔬 2M+ rows · GraphX PageRank · MLlib on distributed data</div>
         <div class="project-tech">
-          <span class="t-tag">JavaScript</span><span class="t-tag">React</span><span class="t-tag">APIs</span><span class="t-tag">Open Source</span>
+          <span class="t-tag">PySpark</span><span class="t-tag">MLlib</span>
+          <span class="t-tag">GraphX</span><span class="t-tag">Structured Streaming</span><span class="t-tag">Hadoop</span>
         </div>
         <a href="https://github.com/HrushikeshDalal" class="project-link" target="_blank">GitHub</a>
       </div>
@@ -387,51 +504,59 @@
     <h2 class="section-title">Recognition.</h2>
     <p class="section-sub">Wins that matter.</p>
     <div class="achievements-grid">
+
       <div class="achievement-card reveal">
-        <div class="ach-icon">🏆</div>
+        <div class="ach-icon">🎓</div>
         <div>
-          <div class="ach-title">4× Hackathon Winner</div>
-          <div class="ach-sub">Multiple wins across national and city-level hackathons. 1× Ideathon winner too.</div>
+          <div class="ach-title">PG-DBDA — C-DAC ACTS Bangalore</div>
+          <div class="ach-sub">Completed one of India's most competitive postgraduate programs in Big Data Analytics covering distributed systems, ML pipelines, and cloud engineering.</div>
         </div>
       </div>
+
+      <div class="achievement-card reveal reveal-delay-1">
+        <div class="ach-icon">📜</div>
+        <div>
+          <div class="ach-title">OneRoadmap Certification</div>
+          <div class="ach-sub">Certified in Data Analytics — CERT-63CC2915, issued March 2026.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal reveal-delay-2">
+        <div class="ach-icon">🏢</div>
+        <div>
+          <div class="ach-title">Data Analyst Internship — Global Web Package</div>
+          <div class="ach-sub">6-month internship handling real business data — validation, reporting, and decision support pipelines. Certificate issued December 2025.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal reveal-delay-3">
+        <div class="ach-icon">📊</div>
+        <div>
+          <div class="ach-title">Live Public Dashboard on GCP</div>
+          <div class="ach-sub">GA4 e-commerce analytics dashboard deployed publicly on Google Cloud — BigQuery + Looker Studio, accessible to anyone.</div>
+        </div>
+      </div>
+
+      <div class="achievement-card reveal">
+        <div class="ach-icon">🔬</div>
+        <div>
+          <div class="ach-title">2M+ Row PySpark Pipeline</div>
+          <div class="ach-sub">Built and ran distributed ML models on the Open Food Facts dataset using PySpark MLlib and GraphX — on a local Windows machine.</div>
+        </div>
+      </div>
+
       <div class="achievement-card reveal reveal-delay-1">
         <div class="ach-icon">🤖</div>
         <div>
-          <div class="ach-title">General Mills GenAI Hackathon</div>
-          <div class="ach-sub">Competed against full-time professionals in an internal AI hackathon. Built a production Glean AI Agent.</div>
+          <div class="ach-title">Offline RAG System — Zero API Cost</div>
+          <div class="ach-sub">Deployed a fully local LLM pipeline using Llama3 and ChromaDB — no cloud dependency, no recurring costs, runs entirely on CPU.</div>
         </div>
       </div>
-      <div class="achievement-card reveal reveal-delay-2">
-        <div class="ach-icon">🎯</div>
-        <div>
-          <div class="ach-title">GenZ Pulse 2026 — Organizer</div>
-          <div class="ach-sub">Co-organized 26-hour hackathon at MVGR College. Built a custom Hackathon Operating System from scratch.</div>
-        </div>
-      </div>
-      <div class="achievement-card reveal reveal-delay-3">
-        <div class="ach-icon">🌿</div>
-        <div>
-          <div class="ach-title">Hacktoberfest Project Admin</div>
-          <div class="ach-sub">Led two open-source repos to 100+ forks, 72 contributors, 150+ pull requests in one month.</div>
-        </div>
-      </div>
-      <div class="achievement-card reveal">
-        <div class="ach-icon">📝</div>
-        <div>
-          <div class="ach-title">Google AI Challenge — Dev.to</div>
-          <div class="ach-sub">Portfolio challenge submission with the Jungle Protocol project, showcasing Gemini API integration.</div>
-        </div>
-      </div>
-      <div class="achievement-card reveal reveal-delay-1">
-        <div class="ach-icon">📦</div>
-        <div>
-          <div class="ach-title">Viral NPM Package</div>
-          <div class="ach-sub">envalyze gained organic traction, featured in developer community posts and newsletters.</div>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- ─── Writing ──────────────────────────────────────── -->
 <section id="writing" style="background: var(--surface); border-top: 1px solid var(--border);">
@@ -439,26 +564,30 @@
     <div class="section-tag">// 06. writing</div>
     <div class="divider"></div>
     <h2 class="section-title">I write too.</h2>
-    <p class="section-sub">System design, open source reality, and the honesty of building software.</p>
+    <p class="section-sub">Data engineering, AI pipelines, and the reality of building real systems from scratch.</p>
     <div class="writing-list reveal">
-      <a href="https://dev.to/hrushikesh_dalal_ced8f95e/the-jungle-protocol-turning-my-professional-journey-into-an-adaptive-quest-3p4m" class="writing-item" target="_blank">
+
+      <div class="writing-item" style="opacity: 0.5; cursor: default;">
         <span class="writing-num">01</span>
-        <span class="writing-title">The Jungle Protocol: Turning my Professional Journey into an Adaptive Quest</span>
-        <span class="writing-tag">Portfolio · AI</span>
-        <span class="writing-arrow">→</span>
-      </a>
-      <a href="https://medium.com/@1010hrushikesh/my-general-mills-internship-experience-47a71cdf1241" class="writing-item" target="_blank">
+        <span class="writing-title">Building a Local RAG System That Runs Entirely on CPU — No API Keys Required</span>
+        <span class="writing-tag">AI · LLM</span>
+        <span class="writing-arrow">Coming Soon</span>
+      </div>
+
+      <div class="writing-item" style="opacity: 0.5; cursor: default;">
         <span class="writing-num">02</span>
-        <span class="writing-title">My General Mills Internship Experience</span>
-        <span class="writing-tag">Career · GenAI</span>
-        <span class="writing-arrow">→</span>
-      </a>
-      <a href="https://dev.to/hrushikesh_dalal_ced8f95e" class="writing-item" target="_blank">
+        <span class="writing-title">Medallion Architecture From Scratch: Bronze to Gold with Databricks and dbt</span>
+        <span class="writing-tag">Data Engineering</span>
+        <span class="writing-arrow">Coming Soon</span>
+      </div>
+
+      <div class="writing-item" style="opacity: 0.5; cursor: default;">
         <span class="writing-num">03</span>
-        <span class="writing-title">System design, open source, and the reality of building software</span>
-        <span class="writing-tag">Dev.to</span>
-        <span class="writing-arrow">→</span>
-      </a>
+        <span class="writing-title">How I Built a Crypto ETL Pipeline Using Airflow and Docker as a Fresher</span>
+        <span class="writing-tag">ETL · Airflow</span>
+        <span class="writing-arrow">Coming Soon</span>
+      </div>
+
     </div>
   </div>
 </section>
@@ -470,15 +599,13 @@
     <div class="divider" style="margin: 0 auto 16px;"></div>
     <h2 class="section-title" style="text-align:center">Let's build something.</h2>
     <p class="section-sub" style="margin: 0 auto 8px; text-align:center">
-      Whether it's a GenAI project, an open-source collab, or just a great conversation about LLMs and system design.
+      Whether it's a data engineering project, an AI pipeline collab, or just a conversation about PySpark and LLMs.
     </p>
-    <a href="mailto:dhrushikesh40@gmail.com" class="contact-email">dhrushikesh40@gmail.com</a>
+    <a href="mailto:dalalhrushikesh40@gmail.com" class="contact-email">dalalhrushikesh40@gmail.com</a>
     <div class="social-links">
-      <a href="https://in.linkedin.com/in/hrushikesh-dalal" class="social-link" target="_blank">LinkedIn</a>
+      <a href="https://linkedin.com/in/hrushikesh-dalal" class="social-link" target="_blank">LinkedIn</a>
       <a href="https://github.com/HrushikeshDalal" class="social-link" target="_blank">GitHub</a>
       <a href="https://medium.com/@dhrushikesh" class="social-link" target="_blank">Medium</a>
-      <a href="https://dev.to/hrushikesh_dalal_ced8f95e" class="social-link" target="_blank">Dev.to</a>
-      <a href="https://www.hrushikeshdalal.tech" class="social-link" target="_blank">Current Site</a>
     </div>
   </div>
 </section>

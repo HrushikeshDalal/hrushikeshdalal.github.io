@@ -625,7 +625,10 @@
     font-weight: 800;
     color: var(--text);
     letter-spacing: -0.02em;
-    margin: 24px 0;
+    margin: 24px auto;
+    width: max-content;
+    max-width: 100%;
+    word-break: break-word;
     display: block;
     transition: color 0.2s;
   }
@@ -643,6 +646,8 @@
     transition: all 0.2s;
   }
   .social-link:hover { color: var(--cyan); border-color: var(--border2); background: rgba(99,210,255,0.04); }
+
+  
 
   /* ─── Footer ────────────────────────────────────────────── */
   footer {
